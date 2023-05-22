@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  padding: 0 10%;
+}
+
+
+form {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 37%;
+}
+
+.dashboard {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  
+}
+
+.buttons button{
+  margin: 20px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
